@@ -1,0 +1,45 @@
+.divAbajo{
+    background-color: #0e0b14;
+    max-width: 1140px;
+    margin: auto;
+    height: 100%;
+    grid-gap:40px ;
+    display: flex;
+    flex-direction: column;
+}
+.logoDisneyFooter{
+    height: 48px;
+    
+}
+.divImagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divImagen > img{
+    padding: 10px 18px;
+}
+
+.info_footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info_footer > article{
+    padding: 5px 10px;
+    
+}
+
+.info_footer > article > p{
+    font-family: Avenir-World-for-Disney-Regular,sans-serif;
+    font-size: 12px;
+    letter-spacing: -.1px;
+    line-height: 1.5;
+    color: #cacaca;
+    transition: 0.3s ease;
+}
+.info_footer > article > p:hover{
+    color: #e6e6e6;
+    transition: 0.3s ease;
+    cursor: pointer;
+}

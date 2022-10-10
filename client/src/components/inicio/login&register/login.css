@@ -34,16 +34,17 @@
     justify-content: center;
     flex-direction: column;
     padding-bottom: 1.5rem;
+    
 }
 .divFormulario > h3{
     color: #f9f9f9;
     padding-bottom: 0.5rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 .divFormulario{
     padding-bottom: 1.5rem;
-    
+    height: 22rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,9 +69,10 @@
     padding: 7px 12px;
     transition: all 0.1s ease 0s;
     width: 120%;
+    /* box-sizing: border-box; */
 }
 
-.formulario > button {
+.botonContinuar > button {
     background: #0072d2;
     border: 0;
     border-radius: 0.25rem;
@@ -81,5 +83,18 @@
     outline: none;
     padding: 7px 12px;
     transition: all 0.1s ease 0s;
-    width: 120%;
+    width: 200%;
+    transition: 0.3s ease;
+}
+
+.botonContinuar > button:hover {
+    background: #388fd6;
+    transition: 0.3s ease;
+}
+.botonContinuar{
+    padding: 10px 20px;
+    width: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
