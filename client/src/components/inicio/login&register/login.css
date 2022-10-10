@@ -1,0 +1,85 @@
+.divGoRegister{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.linkRegister{
+    color: #f9f9f9;
+    text-decoration: none;
+    transition: 0.5s ease;
+    padding: 0px 10px;
+}
+
+.linkRegister:hover{
+    color: rgb(90, 203, 238);
+    transition: 0.5s ease;
+    text-decoration:underline;
+}
+.nav{
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0px 36px;
+    border: 0.5px thin white;
+}
+.logoDisney{
+   height: 48px;
+    
+    
+}
+
+.divLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+.divFormulario > h3{
+    color: #f9f9f9;
+    padding-bottom: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.divFormulario{
+    padding-bottom: 1.5rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.formulario > input{
+    backdrop-filter: blur(50px);
+    background-color: rgb(49, 52, 62);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    caret-color: rgb(2, 231, 245);
+    height: 48px;
+    margin: 0px;
+    outline: none;
+    padding: 7px 12px;
+    transition: all 0.1s ease 0s;
+    width: 120%;
+}
+
+.formulario > button {
+    background: #0072d2;
+    border: 0;
+    border-radius: 0.25rem;
+    color: #f9f9f9;
+    cursor: pointer;
+    height: 48px;
+    margin: 0px;
+    outline: none;
+    padding: 7px 12px;
+    transition: all 0.1s ease 0s;
+    width: 120%;
+}
