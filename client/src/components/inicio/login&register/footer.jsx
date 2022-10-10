@@ -49,6 +49,13 @@ export const Footer = () => {
                     </p>
                 </article>
             </div>
+            <div className="info_footer">
+                <article>
+                    <p>
+                    © Disney. Todos los derechos reservados.
+                    </p>
+                </article>
+            </div>
             </div>
         </div>
     )
